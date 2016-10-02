@@ -9,11 +9,9 @@
   </head>
   <body>
     <h1>My First Angular Sample</h1>
-  <div ng-controller="NameCalculator">
-    Your Name : <input type="text" name="name" ng-model="name" ng-keyup="displayNumeric();">
-    <div>
-      Total Numeric vaue of a person is {{numericValue}}
-    </div>
+  <div ng-controller="MyFirstController">
+    <input type="text" name="name" ng-model="name" >
+    You have entered {{name}}
   </div>
   </body>
 </html>
